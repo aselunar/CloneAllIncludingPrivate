@@ -19,7 +19,7 @@ A GitHub SSH key. If you haven't set that up yet, see the end of the README.
 
 Usage:
 
-Replace <PERSONAL_ACCESS_TOKEN_GOES_HERE> with your personal access token. If bulk cloning from a user instead of an organization, replace "orgs" with "users" in the uri. Then, replace <ORG_NA<E_GOES_HERE> with the name of the organization or user you are bulk cloning from.
+Replace <PERSONAL_ACCESS_TOKEN_GOES_HERE> with your personal access token. If bulk cloning from a user instead of an organization, replace "orgs" with "users" in the uri. Then, replace <ORG_NAME_GOES_HERE> with the name of the organization or user you are bulk cloning from.
 
 For example, if you wanted to clone all the repos from residency at your favorite bootcamp, and your personal access token was 'fshfsh', the command would be as follows:
 
