@@ -27,7 +27,7 @@ For example, if you wanted to clone all the repos from residency at your favorit
  curl -u :fshfsh -s https://api.github.com/orgs/codesmithllc/repos?per_page=1000 | grep -e 'ssh_url' | awk '{print $2}' | sed 's/"\(.*\)",/git clone \1/' > review_and_execute_gitclone.sh
 ```
 
-If on Windows, and you gen an error similar to "bash: $'\302\226\302\226curl': command not found" in your bash shell, please see https://stackoverflow.com/questions/50038286/git-tag-fails-with-226git-command-not-found for how to resolve this error.
+If on Windows, and you get an error similar to "bash: $'\302\226\302\226curl': command not found" in your bash shell, please see https://stackoverflow.com/questions/50038286/git-tag-fails-with-226git-command-not-found for how to resolve this error.
 
 Executing the above command will give you a list of git clone commands in the file named review_and_execute_gitclone.sh . Copy and paste those git clone commands into a terminal and run them.
 
