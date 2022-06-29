@@ -13,7 +13,7 @@ Prerequisites:
 
 A terminal capable of running bash commands, such as Git Bash. https://git-scm.com/
 
-A personal access token from GitHub. https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+A personal access token from GitHub with access to repo > public repo. https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 A GitHub SSH key. If you haven't set that up yet, see the end of the README.
 
@@ -42,7 +42,9 @@ Prerequisites:
 
 A terminal capable of running bash commands, such as Git Bash. https://git-scm.com/
 
-A personal access token from GitHub. https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+A personal access token from GitHub with access to repo > public repo. https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+jq
 
 Usage:
 
