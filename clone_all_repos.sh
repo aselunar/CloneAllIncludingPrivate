@@ -1,5 +1,6 @@
 #!/bin/bash
 # Usage: clone_all_repos.sh [organization] <output directory>
+# Modified from https://gist.github.com/clrung/75459a9fe954313c57f69d6cdfd502ec
 
 ORG=$1
 PER_PAGE=100
@@ -27,6 +28,7 @@ for ((PAGE=1; ; PAGE+=1)); do
         echo -n "Cloning $REPO_NAME to $GIT_OUTPUT_DIRECTORY/$REPONAME... "
 
         git clone https://github.com/$ORG/$REPO_NAME.git $GIT_OUTPUT_DIRECTORY/$REPO_NAME
+        # The below lines make the bash script difficult to debug, so I commented them out.
         # >/dev/null 2>&1 ||
             # { echo -e "ERROR: Unable to clone!" ; ERROR=1 ; continue ; }
         echo "done"
